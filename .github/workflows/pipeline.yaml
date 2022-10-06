@@ -8,10 +8,10 @@ on:
 
 env:
   PROJECT_ID: ${{secrets.GKE_PROJECT}}
-  GKE_CLUSTER: github-cluster
+  GKE_CLUSTER: work-cluster
   GKE_ZONE: us-central1-c
   DEPLOYMENT_NAME: github-actions-gke
-  IMAGE: github-actions-gke-image9
+  IMAGE: github-actions-gke-image
   TAG: ${{ github.sha }}
 
 jobs:
