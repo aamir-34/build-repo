@@ -10,7 +10,7 @@ env:
   GKE_CLUSTER: aamir-cluster
   GKE_ZONE: us-central1-c
   DEPLOYMENT_NAME: github-actions-gke
-  IMAGE: github-actions-gke-image
+  IMAGE: github-actions-gke-image1
   TAG: 1.0.0
 
 jobs:
